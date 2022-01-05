@@ -32,6 +32,7 @@ body {
 
 .title {
   text-align: center;
+  margin-bottom: 60px;
 }
 .title h2 {
   color: #13103a;
@@ -47,14 +48,14 @@ body {
 /* Basic Css Added */
 
 #hero_top {
-  margin-bottom: 60px;
+  margin-bottom: 70px;
 }
 .hero_top_flexBox {
   display: flex;
 }
 .hero_top_flexBox_left {
   width: 50%;
-  margin-top: 8%;
+  margin-top: 12%;
 }
 
 .hero_top_flexBox_left h1 {
@@ -76,7 +77,7 @@ body {
   color: #3e3e3e;
   width: 486px;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 17px;
   font-family: "Poppins", sans-serif;
   margin-bottom: 18px;
 }
@@ -95,13 +96,53 @@ body {
   text-align: center;
 }
 .hero_top_flexBox_right img {
-  width: 50%;
+  width: 60%;
 }
 
 /* HERO TOP CSS END */
 
 #my_dream {
+  margin-bottom: 70px;
 }
 
 .my_dream_flexBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.my_dream_flexBox div {
+  width: 420px;
+  height: auto;
+  border-radius: 15px;
+  padding: 40px;
+}
+
+.my_dream_flexBox img {
+  display: block;
+  width: 60%;
+}
+.my_dream_flexBox div h3 {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+.my_dream_flexBox div p {
+  font-size: 18px;
+  margin-top: 20px;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #424242;
+}
+.my_dream_left {
+  background-color: #edf5f7;
+}
+.my_dream_middle {
+  background-color: #feeeee;
+}
+.my_dream_right {
+  background-color: #fff4d6;
 }
