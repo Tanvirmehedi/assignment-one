@@ -2,9 +2,106 @@
   outline: 0;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   font-family: "Yeseva One", cursive;
+  background: #e5e5e5;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.btn {
+  display: inline-block;
+  background-color: #ffad5a;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 13px 30px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+.title {
+  text-align: center;
+}
+.title h2 {
+  color: #13103a;
+  text-transform: capitalize;
+  font-weight: 800;
+  font-size: 37px;
+  font-family: "Poppins";
+}
+
+.title span {
+  color: #ff5959;
+}
+/* Basic Css Added */
+
+#hero_top {
+  margin-bottom: 60px;
+}
+.hero_top_flexBox {
+  display: flex;
+}
+.hero_top_flexBox_left {
+  width: 50%;
+  margin-top: 8%;
+}
+
+.hero_top_flexBox_left h1 {
+  font-family: "Yeseva One", cursive;
+  font-weight: 400;
+  font-size: 51px;
+  text-transform: capitalize;
+  color: #333333;
+  border-left: 4px solid #ffad5a;
+  margin-bottom: 25px;
+  padding-left: 9px;
+}
+
+.hero_top_flexBox_left h1 span {
+  color: #ff5959;
+}
+
+.hero_top_flexBox_left p {
+  color: #3e3e3e;
+  width: 486px;
+  font-weight: 300;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 18px;
+}
+
+.hero_top_flexBox_left small {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #434343;
+  margin-top: 24px;
+}
+
+.hero_top_flexBox_right {
+  width: 50%;
+  text-align: center;
+}
+.hero_top_flexBox_right img {
+  width: 50%;
+}
+
+/* HERO TOP CSS END */
+
+#my_dream {
+}
+
+.my_dream_flexBox {
 }
