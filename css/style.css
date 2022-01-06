@@ -9,8 +9,8 @@ a {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  font-family: "Yeseva One", cursive;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Yeseva One', cursive;
   background: #e5e5e5;
 }
 
@@ -39,7 +39,7 @@ body {
   text-transform: capitalize;
   font-weight: 800;
   font-size: 37px;
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 
 .title span {
@@ -59,7 +59,7 @@ body {
 }
 
 .hero_top_flexBox_left h1 {
-  font-family: "Yeseva One", cursive;
+  font-family: 'Yeseva One', cursive;
   font-weight: 400;
   font-size: 51px;
   text-transform: capitalize;
@@ -78,13 +78,13 @@ body {
   width: 486px;
   font-weight: 300;
   font-size: 17px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 30px;
 }
 
 .hero_top_flexBox_left small {
   display: block;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-size: 16px;
   color: #434343;
@@ -111,10 +111,10 @@ body {
 }
 
 .my_dream_flexBox div {
-  width: 420px;
+  width: 30%;
   height: auto;
   border-radius: 15px;
-  padding: 40px;
+  padding: 3% 4%;
 }
 
 .my_dream_flexBox img {
@@ -123,7 +123,7 @@ body {
 }
 .my_dream_flexBox div h3 {
   color: #000000;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 26px;
   margin-top: 10px;
@@ -133,7 +133,7 @@ body {
 .my_dream_flexBox div p {
   font-size: 18px;
   margin-top: 20px;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-weight: 400;
   color: #424242;
 }
@@ -151,7 +151,7 @@ body {
 
 #noLimit_dev {
   margin-bottom: 70px;
-  background-image: url("../images/shapes/shape-1.png");
+  background-image: url('../images/shapes/shape-1.png');
   background-repeat: no-repeat;
   background-position: 4%;
   background-size: 14%;
