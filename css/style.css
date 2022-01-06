@@ -24,10 +24,10 @@ body {
   color: #ffffff;
   text-transform: capitalize;
   font-size: 16px;
-  font-weight: 600;
-  padding: 13px 30px;
+  font-weight: 500;
+  padding: 0.6rem 1.5rem;
   border-radius: 5px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .title {
@@ -111,10 +111,10 @@ body {
 }
 
 .my_dream_flexBox div {
-  width: 30%;
+  width: 31%;
   height: auto;
   border-radius: 15px;
-  padding: 3% 4%;
+  padding: 1.5% 3%;
 }
 
 .my_dream_flexBox img {
@@ -131,7 +131,7 @@ body {
 }
 
 .my_dream_flexBox div p {
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 20px;
   font-family: 'Poppins';
   font-weight: 400;
@@ -173,4 +173,23 @@ body {
 }
 .noLimit_dev_right {
   width: 50%;
+}
+
+.noLimit_dev_right h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #333333;
+  margin-bottom: 0.5rem;
+}
+
+.noLimit_dev_right p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #3e3e3e;
+}
+
+.noLimit_dev_right .btn {
+  margin-top: 1.5rem;
 }
