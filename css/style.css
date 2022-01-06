@@ -14,7 +14,7 @@ ol {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   /* font-family: 'Yeseva One', cursive; */
   background: #e5e5e5;
 }
@@ -44,7 +44,7 @@ body {
   text-transform: capitalize;
   font-weight: 800;
   font-size: 37px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .title span {
@@ -64,7 +64,7 @@ body {
 }
 
 .hero_top_flexBox_left h1 {
-  font-family: 'Yeseva One', cursive;
+  font-family: "Yeseva One", cursive;
   font-weight: 400;
   font-size: 51px;
   text-transform: capitalize;
@@ -83,13 +83,13 @@ body {
   width: 486px;
   font-weight: 300;
   font-size: 17px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 30px;
 }
 
 .hero_top_flexBox_left small {
   display: block;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 16px;
   color: #434343;
@@ -128,7 +128,7 @@ body {
 }
 .my_dream_flexBox div h3 {
   color: #000000;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 26px;
   margin-top: 10px;
@@ -138,7 +138,7 @@ body {
 .my_dream_flexBox div p {
   font-size: 16px;
   margin-top: 20px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 400;
   color: #424242;
 }
@@ -156,7 +156,7 @@ body {
 
 #noLimit_dev {
   margin-bottom: 70px;
-  background-image: url('../images/shapes/shape-1.png');
+  background-image: url("../images/shapes/shape-1.png");
   background-repeat: no-repeat;
   background-position: 4%;
   background-size: 14%;
@@ -181,7 +181,7 @@ body {
 }
 
 .noLimit_dev_right h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 1.8rem;
   color: #333333;
@@ -189,7 +189,7 @@ body {
 }
 
 .noLimit_dev_right p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 0.9rem;
   color: #3e3e3e;
@@ -202,7 +202,7 @@ body {
 
 #our_community {
   margin-bottom: 70px;
-  background-image: url('../images/shapes/shape-1.png');
+  background-image: url("../images/shapes/shape-1.png");
   background-repeat: no-repeat;
   background-position: 95% 95%;
   background-size: 14%;
@@ -227,7 +227,7 @@ body {
   width: 50%;
 }
 .our_community_left h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 1.8rem;
   color: #333333;
@@ -235,7 +235,7 @@ body {
 }
 
 .our_community_left p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 0.9rem;
   color: #3e3e3e;
@@ -248,6 +248,10 @@ body {
 
 #team_member {
   margin-bottom: 70px;
+  background-image: url(../images/shapes/shape-6.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 12% 100%;
 }
 
 .team_member_flexBox {
@@ -255,21 +259,23 @@ body {
   justify-content: space-around;
 }
 .team_member_flexBox .infoBox {
-  width: 30%;
-  background-color: #ffad5a;
+  width: 26%;
+  background-color: #ffad5a5e;
   height: auto;
   text-align: center;
   border-radius: 15px;
-  padding: 1.5rem 1rem;
+  padding: 1.8rem 1rem;
 }
 
 .team_member_flexBox .infoBox img {
   width: 50%;
 }
 .team_member_flexBox .infoBox h2 {
+  color: #434343;
 }
 
 .team_member_flexBox .infoBox p {
+  color: #333333;
 }
 
 .team_member_flexBox .infoBox ul {
@@ -288,9 +294,12 @@ body {
   margin-top: 1rem;
   align-items: center;
   justify-content: center;
+  box-shadow: 0px 0px 1px 4px rgb(203 236 253 / 63%);
 }
 .team_member_flexBox .infoBox ul li i {
-  font-size: 100%;
+  color: #ffad5a;
+  cursor: pointer;
+  font-size: 1.5rem;
 }
 
 /* END OF TEAM_MEMBER CSS */
@@ -302,7 +311,7 @@ body {
 
 #footer h2 {
   color: #e5e5e5;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   letter-spacing: 2px;
 }
 #footer h2 span {
@@ -311,7 +320,7 @@ body {
 
 #footer p {
   color: #d9dbe1;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 12px;
   margin-top: 1rem;
