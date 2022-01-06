@@ -69,11 +69,20 @@ body {
   font-size: 51px;
   text-transform: capitalize;
   color: #333333;
-  border-left: 4px solid #ffad5a;
   margin-bottom: 25px;
-  padding-left: 9px;
+  padding-left: 8px;
+  position: relative;
 }
-
+.hero_top_flexBox_left h1::before {
+  height: 75%;
+  content: "";
+  background-color: #ffad5a;
+  position: absolute;
+  top: 11%;
+  border: 1.5px solid #ffad5a;
+  border-radius: 15px;
+  left: -0%;
+}
 .hero_top_flexBox_left h1 span {
   color: #ff5959;
 }
