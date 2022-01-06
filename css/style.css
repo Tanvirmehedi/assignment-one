@@ -8,6 +8,11 @@ a {
   text-decoration: none;
 }
 
+ul,
+ol {
+  list-style: none;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   /* font-family: 'Yeseva One', cursive; */
@@ -241,6 +246,54 @@ body {
 }
 /* COMMUNITY CSS END */
 
+#team_member {
+  margin-bottom: 70px;
+}
+
+.team_member_flexBox {
+  display: flex;
+  justify-content: space-around;
+}
+.team_member_flexBox .infoBox {
+  width: 30%;
+  background-color: #ffad5a;
+  height: auto;
+  text-align: center;
+  border-radius: 15px;
+  padding: 1.5rem 1rem;
+}
+
+.team_member_flexBox .infoBox img {
+  width: 50%;
+}
+.team_member_flexBox .infoBox h2 {
+}
+
+.team_member_flexBox .infoBox p {
+}
+
+.team_member_flexBox .infoBox ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.team_member_flexBox .infoBox ul li {
+  display: flex;
+  background-color: #fff4d6;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.team_member_flexBox .infoBox ul li i {
+  font-size: 100%;
+}
+
+/* END OF TEAM_MEMBER CSS */
 #footer {
   text-align: center;
   padding: 20px 0;
